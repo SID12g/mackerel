@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "@/components/navbar/navbar";
+import Wrapper from "@/components/wrapper/wrapper";
 
 export const metadata: Metadata = {
   title: "Mackerel",
@@ -13,7 +15,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <main>
+          <Wrapper>{children}</Wrapper>
+        </main>
+        <Navbar />
+      </body>
     </html>
   );
 }

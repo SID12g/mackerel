@@ -1,0 +1,14 @@
+.ads_wrap {
+  width: "100%";
+  display: flex;
+  justify-content: center;
+}
+
+.ads_link {
+}
+
+.ads {
+  max-width: 353px;
+  width: 100%;
+  height: 90px;
+}
