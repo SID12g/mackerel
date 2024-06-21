@@ -24,14 +24,14 @@ export default function Posts() {
         <button className={styles.button}>비추천 (9)</button>
       </div>
       <Advertisement />
-      <p className={styles.comment}>댓글 - 11개</p>
+      <p className={styles.comment}>댓글 - 2개</p>
       <Comment
         name="황석준"
         time="10분전"
         heart={3}
         comment="솔직히 노재원은 노재원이다.."
       />
-      <Comment name="유민우" time="15분전" heart={11} comment="오앙오잉" />
+      <Comment name="유민우" time="15분전" heart={11} comment="오잉오잉" />
     </div>
   );
 }
