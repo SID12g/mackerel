@@ -8,32 +8,38 @@ export default function Group() {
     <div>
       <Header title="그룹" />
       <Content
+        href="/group/1"
         title="템플스테이 가실 분 구합니다."
         number="4명/ 6명"
         name="mr.hwang"
       />
       <Content
+        href="/group/1"
         title="템플스테이 가실 분 구합니다."
         number="4명/ 6명"
         name="mr.hwang"
       />
       <Content
+        href="/group/1"
         title="템플스테이 가실 분 구합니다."
         number="4명/ 6명"
         name="mr.hwang"
       />
       <Advertisement />
       <Content
+        href="/group/1"
         title="템플스테이 가실 분 구합니다."
         number="4명/ 6명"
         name="mr.hwang"
       />
       <Content
+        href="/group/1"
         title="템플스테이 가실 분 구합니다."
         number="4명/ 6명"
         name="mr.hwang"
       />
       <Content
+        href="/group/1"
         title="템플스테이 가실 분 구합니다."
         number="4명/ 6명"
         name="mr.hwang"

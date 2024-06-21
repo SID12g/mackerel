@@ -1,0 +1,28 @@
+.container {
+  width: calc(100% - 40px);
+  background-color: var(--primary-color);
+  padding: 8px 20px;
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 20px;
+}
+
+.info {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--assist-text-color);
+  margin: 0;
+}
+
+.heart {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--primary-text-color);
+  margin: 0;
+}
+
+.comment {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
