@@ -1,0 +1,40 @@
+.form {
+}
+
+.input {
+  width: calc(100% - 40px);
+  background-color: var(--primary-color);
+  padding: 20px 24px;
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button {
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.kakao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #fee500;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}

@@ -5,7 +5,7 @@ import Header from "@/components/header/header";
 
 export default function Group() {
   return (
-    <div className={styles.container}>
+    <div>
       <Header title="그룹" />
       <Content
         title="템플스테이 가실 분 구합니다."

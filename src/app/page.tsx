@@ -5,7 +5,7 @@ import Content from "@/components/content/content";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Header title="실시간 인기글" />
       <Content
         title="오늘 점심 먹는 노재원 실화냐"
