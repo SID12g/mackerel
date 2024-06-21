@@ -1,0 +1,29 @@
+.container {
+  width: calc(100% - 40px);
+  background-color: var(--primary-color);
+  padding: 0 20px;
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.icon {
+}
+
+.number {
+  margin: 0;
+  margin-left: 4px;
+}
+
+.name {
+  margin: 8px 0 20px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--assist-text-color);
+}
