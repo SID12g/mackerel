@@ -1,5 +1,5 @@
-import Advertisement from "@/components/advertisement/advertisement";
 import styles from "./page.module.css";
+import Advertisement from "@/components/advertisement/advertisement";
 import Header from "@/components/header/header";
 import Content from "@/components/content/content";
 
