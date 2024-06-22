@@ -62,7 +62,7 @@ export default function Register() {
           <span style={{ marginLeft: 4, color: "#0075FF", fontWeight: 500 }}>
             약관
           </span>
-          이던지 동의합니다.
+          에동의합니다.
         </div>
         <button className={styles.button} type="submit">
           회원가입
