@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+}
+.button {
+  background-color: #191919;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  padding: 12px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
