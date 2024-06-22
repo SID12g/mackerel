@@ -22,7 +22,7 @@ export default function Group({ params }: { params: { id: string } }) {
         <Advertisement />
         <p className={styles.comment}>댓글 - 1개</p>
         <Comment
-          name="유민우"
+          name="나는 노재원이 아니다."
           time="15분전"
           heart={11}
           comment="나도 가고싶다."

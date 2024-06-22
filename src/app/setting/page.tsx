@@ -2,6 +2,7 @@ import styles from "@/app/setting/page.module.css";
 import Header from "@/components/header/header";
 import Image from "next/image";
 import kakao from "@/../public/kakao.svg";
+import Link from "next/link";
 
 export default function Setting() {
   return (
@@ -38,9 +39,11 @@ export default function Setting() {
           <button className={styles.button} type="submit">
             로그인
           </button>
-          <button className={styles.button} type="submit">
-            회원가입
-          </button>
+          <Link style={{ textDecoration: "none" }} href={"/register"}>
+            <button className={styles.button} type="submit">
+              회원가입
+            </button>
+          </Link>
         </form>
         <p style={{ textAlign: "center", color: "var(--assist-text-color)" }}>
           or
